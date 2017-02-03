@@ -1,0 +1,24 @@
+{
+  "name": "mcserverlisting",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MasterSpoofZz",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.16.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "express-session": "^1.15.0",
+    "mongodb": "^2.2.21",
+    "mongoose": "^4.7.7",
+    "ouch": "^1.0.0"
+  }
+}

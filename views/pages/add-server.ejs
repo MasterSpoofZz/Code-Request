@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ../partials/head %>
+</head>
+
+<body class="container">
+
+    <header>
+        <% include ../partials/header %>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <div class="jumbotron">
+                <div class="container">
+                    <h1>Nova - Minecraft Server Listings</h1>
+                    <p> &raquo; Add New Server</p>
+                </div>
+            </div>
+
+            <form class="form-horizontal">
+                <fieldset>
+
+                    <!-- Form Name -->
+                    <legend>Form Name</legend>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="textinput">Server IP</label>
+                        <div class="col-md-4">
+                            <input id="textinput" name="textinput" placeholder="placeholder" class="form-control input-md" required="" type="text">
+
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="textinput">Server Port</label>
+                        <div class="col-md-4">
+                            <input id="textinput" name="textinput" placeholder="placeholder" class="form-control input-md" required="" type="text">
+
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="textinput">Server Name</label>
+                        <div class="col-md-4">
+                            <input id="textinput" name="textinput" placeholder="placeholder" class="form-control input-md" required="" type="text">
+
+                        </div>
+                    </div>
+
+                    <!-- Textarea -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="textarea">Server Description</label>
+                        <div class="col-md-4">
+                            <textarea class="form-control" id="textarea" name="textarea">default text</textarea>
+                        </div>
+                    </div>
+
+                    <!-- Select Basic -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="selectbasic">Server Version</label>
+                        <div class="col-md-4">
+                            <select id="selectbasic" name="selectbasic" class="form-control">
+      <option value="1">Version 1.0</option>
+      <option value="2">Version 1.1</option>
+      <option value="3">Version 1.2.1</option>
+      <option value="4">Version 1.2.2</option>
+      <option value="5">Version 1.2.3</option>
+      <option value="6">Version 1.2.4</option>
+      <option value="7">Version 1.2.5</option>
+      <option value="8">Version 1.3.1</option>
+      <option value="9">Version 1.3.2</option>
+      <option value="10">Version 1.4.2</option>
+      <option value="11">Version 1.4.4</option>
+      <option value="12">Version 1.4.5</option>
+      <option value="13">Version 1.4.6</option>
+      <option value="14">Version 1.4.7</option>
+      <option value="15">Version 1.5.1</option>
+      <option value="16">Version 1.5.2</option>
+      <option value="17">Version 1.6.1</option>
+      <option value="18">Version 1.6.2</option>
+      <option value="19">Version 1.6.4</option>
+      <option value="20">Version 1.7</option>
+      <option value="21">Version 1.7.2</option>
+      <option value="22">Version 1.7.4</option>
+      <option value="23">Version 1.7.5</option>
+      <option value="24">Version 1.7.6</option>
+      <option value="25">Version 1.7.7</option>
+      <option value="26">Version 1.7.8</option>
+      <option value="27">Version 1.7.9</option>
+      <option value="28">Version 1.7.10</option>
+      <option value="29">Version 1.8</option>
+      <option value="30">Version 1.8.1</option>
+      <option value="31">Version 1.8.2</option>
+      <option value="32">Version 1.8.3</option>
+      <option value="33">Version 1.8.4</option>
+      <option value="34">Version 1.8.5</option>
+      <option value="35">Version 1.8.6</option>
+      <option value="36">Version 1.8.7</option>
+      <option value="37">Version 1.8.8</option>
+      <option value="38">Version 1.9</option>
+      <option value="39">Version 1.9.1</option>
+      <option value="40">Version 1.9.2</option>
+      <option value="41">Version 1.9.3</option>
+      <option value="42">Version 1.9.4</option>
+      <option value="43">Version 1.10</option>
+      <option value="44">Version 1.10.1</option>
+      <option value="45">Version 1.10.2</option>
+      <option value="46">Version 1.11</option>
+      <option value="47">Version 1.11.1</option>
+      <option value="48">Version 1.11.2</option>
+    </select>
+                        </div>
+                    </div>
+
+                    <!-- Multiple Checkboxes (inline) -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="checkboxes">Server Type</label>
+                        <div class="col-md-4">
+                            <label class="checkbox-inline" for="checkboxes-0">
+      <input name="checkboxes" id="checkboxes-0" value="1" type="checkbox">
+      Survival Mode
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-1">
+      <input name="checkboxes" id="checkboxes-1" value="2" type="checkbox">
+      Creative Mode
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-2">
+      <input name="checkboxes" id="checkboxes-2" value="3" type="checkbox">
+      Hardcore Mode
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-3">
+      <input name="checkboxes" id="checkboxes-3" value="4" type="checkbox">
+      Adventure Mode
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-4">
+      <input name="checkboxes" id="checkboxes-4" value="5" type="checkbox">
+      Vanilla
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-5">
+      <input name="checkboxes" id="checkboxes-5" value="6" type="checkbox">
+      Semi Vanilla
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-6">
+      <input name="checkboxes" id="checkboxes-6" value="7" type="checkbox">
+      Bukkit
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-7">
+      <input name="checkboxes" id="checkboxes-7" value="8" type="checkbox">
+      Spigot
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-8">
+      <input name="checkboxes" id="checkboxes-8" value="9" type="checkbox">
+      PVE
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-9">
+      <input name="checkboxes" id="checkboxes-9" value="10" type="checkbox">
+      PVP
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-10">
+      <input name="checkboxes" id="checkboxes-10" value="11" type="checkbox">
+      RPG
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-11">
+      <input name="checkboxes" id="checkboxes-11" value="12" type="checkbox">
+      Whitelist
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-12">
+      <input name="checkboxes" id="checkboxes-12" value="13" type="checkbox">
+      FTB
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-13">
+      <input name="checkboxes" id="checkboxes-13" value="14" type="checkbox">
+      Pixelmon
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-14">
+      <input name="checkboxes" id="checkboxes-14" value="15" type="checkbox">
+      LandClaim
+    </label>
+                        </div>
+                    </div>
+
+                    <!-- Multiple Checkboxes (inline) -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="checkboxes">Gameplay</label>
+                        <div class="col-md-4">
+                            <label class="checkbox-inline" for="checkboxes-0">
+      <input name="checkboxes" id="checkboxes-0" value="1" type="checkbox">
+      Tekkit
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-1">
+      <input name="checkboxes" id="checkboxes-1" value="2" type="checkbox">
+      Skyblock
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-2">
+      <input name="checkboxes" id="checkboxes-2" value="3" type="checkbox">
+      Hunger Games
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-3">
+      <input name="checkboxes" id="checkboxes-3" value="4" type="checkbox">
+      CTF
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-4">
+      <input name="checkboxes" id="checkboxes-4" value="5" type="checkbox">
+      KitPvP
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-5">
+      <input name="checkboxes" id="checkboxes-5" value="6" type="checkbox">
+      Survival Games
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-6">
+      <input name="checkboxes" id="checkboxes-6" value="7" type="checkbox">
+      Mini Games
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-7">
+      <input name="checkboxes" id="checkboxes-7" value="8" type="checkbox">
+      Prison
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-8">
+      <input name="checkboxes" id="checkboxes-8" value="9" type="checkbox">
+      Factions
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-9">
+      <input name="checkboxes" id="checkboxes-9" value="10" type="checkbox">
+      McMMO
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-10">
+      <input name="checkboxes" id="checkboxes-10" value="11" type="checkbox">
+      Economy
+    </label>
+                            <label class="checkbox-inline" for="checkboxes-11">
+      <input name="checkboxes" id="checkboxes-11" value="12" type="checkbox">
+      Lucky Block
+    </label>
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="textinput">Website URL</label>
+                        <div class="col-md-4">
+                            <input id="textinput" name="textinput" placeholder="https://www.website.com" class="form-control input-md" type="text">
+                            <span class="help-block">(Not required)</span>
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="textinput">Youtube Video</label>
+                        <div class="col-md-4">
+                            <input id="textinput" name="textinput" placeholder="https://www.youtube.com" class="form-control input-md" type="text">
+                            <span class="help-block">(Not required)</span>
+                        </div>
+                    </div>
+
+                    <!-- Button -->
+                    <div class="form-group">
+                        <label class="col-md-4 control-label" for="submit"></label>
+                        <div class="col-md-4">
+                            <button id="submit" name="submit" class="btn btn-success">Create Server</button>
+                        </div>
+                    </div>
+
+                </fieldset>
+            </form>
+
+
+        </div>
+    </main>
+    <% include ../partials/footer %>
+</body>
+
+</html>
